@@ -3,6 +3,8 @@
 }
 
 body {
+	background-size: auto; /* Adjust the background size for mobile */
+    height: auto;
 	background-color: #333;
 	display: flex;
 	align-items: center;
@@ -152,6 +154,8 @@ body {
 
 .input:focus {
   color: white;
+  width: 100%;
+  margin-bottom: 10px;
   background-color: hsl(0, 80%, 48%);
   outline-color: hsl(0, 80%, 48%);
   box-shadow: -3px -3px 15px hsl(0, 80%, 48%);
@@ -191,6 +195,7 @@ button {
    }
    
 .codes {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
   }
@@ -214,6 +219,7 @@ button {
 }
 
 .footer {
+	position: static;
     background-color: #24262b;
     padding: 20px 0;
     position: fixed;
