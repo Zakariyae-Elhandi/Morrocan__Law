@@ -1,7 +1,7 @@
 #maListe {
     display: none;
 }
-
+@media (max-width: 767px) {
 body {
 	background-size: auto; /* Adjust the background size for mobile */
     height: auto;
@@ -297,7 +297,7 @@ button {
         margin-bottom: 30px;
     }
 }
-
+}
   
 
 
