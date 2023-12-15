@@ -50,7 +50,8 @@ body {
 	padding: 20px 30px;
 	border-radius: 70px;
 	border: 10;
-	background-color: white;
+	background-color: hsl(0, 80%, 48%);
+	color :white;
 	box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
@@ -214,7 +215,7 @@ button {
 
 .footer {
     background-color: #24262b;
-    padding: 40px 0;
+    padding: 20px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
